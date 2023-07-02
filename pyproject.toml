@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "course3(version2)-"
+version = "0.1.0"
+description = ""
+authors = ["Mihail Samofalov <misasamofalov611@gmail.com>"]
+readme = "README.md"
+packages = [{include = "course3(version2)"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytest = "^7.4.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest-cov = "^4.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
