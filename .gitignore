@@ -1,4 +1,7 @@
 # Created by pytest automatically.
+pycache__
+__pycache__/
 .pytest_cache/
 .coverage
 .idea
+.pyc
